@@ -8,7 +8,7 @@ function EntrerNombre (props)
     return (
         <div>
             <label for="inputNombre">{props.labelText}</label>
-            <input name="inputNombre" onclick={props.callback}>{props.nombreInitial}</input>
+            <input type="number" name="inputNombre" onclick={props.callback} value={props.nombreInitial} />
         </div>
     )
 }

@@ -13,4 +13,4 @@ function DisplayMoneyAmount(props)
     )
 }
 
-export default DisplayMoneyAmount(amount, labelText);
+export default DisplayMoneyAmount;
