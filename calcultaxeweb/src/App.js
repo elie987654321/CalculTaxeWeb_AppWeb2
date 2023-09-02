@@ -1,15 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import DisplayMontant from './Components/DisplayMontant'; 
-import EntrerNombre from './Components/EntrerNombre';
-import Main from './Components/Main';
+import TaxeQc from './Components/TaxeQc';
 
 
 function App() {
   return (
     <div className="App">
-      <Main>
-      </Main>
+      <TaxeQc></TaxeQc>
     </div>
   );
 }
